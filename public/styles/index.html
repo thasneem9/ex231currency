@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>Currency Exchanger</title>
+    
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+    </head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="/convert" method="POST">
+            <label for="baseCurrency">Base Currency:</label>
+            <input name="amount" placeholder="enter the amount"></input>
+            <select name="baseCurrency" class="dropdown">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <!-- Add more options as needed -->
+            </select>
+    
+            <label for="targetCurrency">Target Currency:</label>
+            <select name="targetCurrency" class="dropdown">
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <!-- Add more options as needed -->
+            </select>
+    
+            <button type="submit" class="button">Convert</button>
+        </form>
+        
+    </div>
+
+  
+   
+    
+</body>
+</html>
+    
